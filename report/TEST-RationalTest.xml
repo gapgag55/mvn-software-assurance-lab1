@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Sarayuts-MBP" name="RationalTest" skipped="0" tests="8" time="0.16" timestamp="2019-10-04T15:49:57">
+  <properties>
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib" />
+    <property name="java.vm.version" value="25.222-b10" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="gopherProxySet" value="false" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="AdoptOpenJDK" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.country" value="TH" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="/Users/mang/Desktop/Lab1/mvn-exercise" />
+    <property name="java.runtime.version" value="1.8.0_222-b10" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="basedir" value="/Users/mang/Desktop/Lab1/mvn-exercise" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.io.tmpdir" value="/var/folders/g5/cjnjn9dj2nsdx3s478cbzwwc0000gn/T/" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.library.path" value="/Users/mang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.14.6" />
+    <property name="ant.file" value="/Users/mang/Desktop/Lab1/mvn-exercise/build.xml" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/mang" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/tools.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-net.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-xz.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit4.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jai.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-resolver.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jdepend.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-regexp.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-log4j.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-javamail.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bcel.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-netrexx.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-swing.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jsch.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junitlauncher.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-launcher.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-antlr.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-testutil.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-oro.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jmf.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-xalan2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bsf.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-logging.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" />
+    <property name="user.name" value="mang" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/mang/Desktop/Lab1/mvn-exercise/build.xml test" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_222" />
+    <property name="java.ext.dirs" value="/Users/mang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes" />
+    <property name="java.vendor" value="AdoptOpenJDK" />
+    <property name="file.separator" value="/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="ant.file.type" value="file" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="sun.cpu.isalist" value="" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.017" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.003" />
+  <testcase classname="RationalTest" name="testRational" time="0.001" />
+  <testcase classname="RationalTest" name="testDivide" time="0.001" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
